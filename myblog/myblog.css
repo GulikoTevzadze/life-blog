@@ -1,0 +1,117 @@
+.blog-title-btn {
+  display: none;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.posts-text {
+  font-weight: 400;
+}
+.blog-title {
+  width: 100%;
+}
+.blog-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.blog-blocks-item {
+  width: 390px;
+  margin-bottom: 2.2rem;
+}
+.blog-blocks-item img {
+  width: 390px;
+}
+.blog-blocks-item-content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-bottom: 1px solid var(--light-grey);
+}
+.blog-blocks-item-content h2 {
+  text-align: left;
+}
+.blog-blocks-item-content p {
+  margin: 1rem 0;
+  line-height: 2rem;
+}
+@media (min-width: 768px) {
+  .blog-title {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .blog-title-btn {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .blog-title-btn .btn {
+    border: 1px solid var(--dark-orange);
+    background-color: var(--white);
+    color: var(--dark-orange);
+  }
+  .blog-blocks {
+    justify-content: space-between;
+  }
+  .blog-blocks-item {
+    width: 350px;
+    border: 1px solid var(--light-grey);
+    height: min-content;
+  }
+  .blog-blocks-item img {
+    width: 350px;
+  }
+  .blog-blocks-item-content {
+    border: none;
+  }
+  .order-three {
+    transform: translateY(-25%);
+  }
+  .order-five {
+    transform: translateY(-32%);
+  }
+  .order-seven {
+    transform: translateY(-40%);
+  }
+  .order-nine {
+    display: none;
+  }
+}
+@media (min-width: 960px) {
+  .blog-blocks-item {
+    width: 300px;
+  }
+  .blog-blocks-item img {
+    width: 300px;
+  }
+  .order-nine {
+    display: block;
+    transform: translateY(-3%);
+  }
+  .order-three {
+    transform: translateY(0);
+  }
+  .order-four {
+    transform: translateY(-20%);
+  }
+  .order-five {
+    transform: translateY(-2%);
+  }
+  .order-six {
+    transform: translateY(2%);
+  }
+  .order-seven {
+    transform: translateY(-22%);
+  }
+  .order-eight {
+    transform: translateY(-14%);
+  }
+}
