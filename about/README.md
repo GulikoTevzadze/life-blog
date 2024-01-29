@@ -1,3 +1,3 @@
 # Life Blog
 
-Еhis is a life blog website
+This is a life blog website
