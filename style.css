@@ -80,7 +80,8 @@ form {
   color: var(--white);
 }
 .header-input {
-  padding: 10px;
+  color: var(--white);
+  padding: 10px 10px 10px 30px;
   cursor: pointer;
 }
 .header-input::placeholder {
@@ -118,7 +119,7 @@ form {
 .header-bottom-nav {
   display: flex;
   justify-content: flex-end;
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100vh;
   background: #000;
@@ -364,7 +365,8 @@ h2 {
   width: 50px;
   height: 50px;
   margin: auto 0;
-  position: relative;
+  position: absolute;
+  right: 2rem;
   z-index: 10;
   cursor: pointer;
 }
@@ -375,17 +377,22 @@ h2 {
   background: #000;
   transition: all 0.3s ease;
 }
-
+.cross {
+  position: fixed;
+}
 .burger.cross span:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
+
 }
 
 .burger.cross span:nth-child(2) {
   opacity: 0;
+  
 }
 
 .burger.cross span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
+  
 }
 
 @media (min-width: 768px) {

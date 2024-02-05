@@ -59,12 +59,14 @@ article {
     color: var(--dark-orange);
   }
   .blog-blocks {
+    display: flex;
+    align-items: flex-start;
     justify-content: space-between;
   }
   .blog-blocks-item {
     width: 350px;
     border: 1px solid var(--light-grey);
-    height: min-content;
+  
   }
   .blog-blocks-item img {
     width: 350px;
@@ -72,15 +74,7 @@ article {
   .blog-blocks-item-content {
     border: none;
   }
-  .order-three {
-    transform: translateY(-25%);
-  }
-  .order-five {
-    transform: translateY(-32%);
-  }
-  .order-seven {
-    transform: translateY(-40%);
-  }
+  
   .order-nine {
     display: none;
   }

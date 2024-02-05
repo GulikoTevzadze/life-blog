@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../image/" />
     <title>About - Life Blog</title>
   </head>
   <body>
@@ -111,12 +112,12 @@
               </div>
               <img
                 class="about-small-photo"
-                src="https://static.wixstatic.com/media/75059a_837c609e5bfe43c69662dcb5fd611e96~mv2.jpg/v1/crop/x_1023,y_136,w_4032,h_3011/fill/w_350,h_285,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/GettyImages-962633986.jpg"
+                src="../image/blog-author.webp"
                 alt="blog author"
               />
               <img
                 class="about-big-photo"
-                src="https://static.wixstatic.com/media/75059a_837c609e5bfe43c69662dcb5fd611e96~mv2.jpg/v1/crop/x_1023,y_136,w_4032,h_3011/fill/w_613,h_455,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/GettyImages-962633986.jpg"
+                src="../image/blog-author-2.webp"
                 alt=""
               />
             </article>
@@ -152,7 +153,13 @@
             <div class="footer-top-forms-row">
               <div class="footer-top-forms-item">
                 <label for="email">Email *</label>
-                <input tabindex="3" type="email" id="email" name="email" />
+                <input
+                  tabindex="3"
+                  type="email"
+                  id="email"
+                  name="email "
+                  pattern=".+@example\.com"
+                />
               </div>
               <div class="footer-top-forms-item">
                 <label for="text">Leave us a message...</label>
